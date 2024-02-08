@@ -18,10 +18,12 @@ module.exports = {
     '!<rootDir>/*.config.js',
     '!<rootDir>/coverage/**'
   ],
-  moduleDirectories: ['node_modules', '<rootDir>/node_modules', '.'],
-  moduleNameMapper: {
-    ...pathsToModuleNameMapper(compilerOptions.paths, { prefix: '<rootDir>/' }),
-    /* Handle CSS imports (with CSS modules)
+
+  / hi geys :DDD
+  // moduleDirectories: ['node_modules', '<rootDir>/node_modules', '.'],
+  // moduleNameMapper: {
+  //   ...pathsToModuleNameMapper(compilerOptions.paths, { prefix: '<rootDir>/' }),
+  //   /* Handle CSS imports (with CSS modules)
 
 {
   "public": {
