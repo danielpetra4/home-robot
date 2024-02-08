@@ -37,3 +37,15 @@ module.exports = {
     "bech32PrefixAccAddr": "pylo",
     "bech32PrefixAccPub": "pylopub",
     "bech32PrefixValAddr": "pylovaloper",
+
+
+              "denom": "umuon",
+        "displayName": "MUON",
+        "fraction": 1000000
+      },
+      {
+        "denom": "ustripeusd",
+        "displayName": "STRIPEUSD",
+        "fraction": 1000000
+      },
+  
